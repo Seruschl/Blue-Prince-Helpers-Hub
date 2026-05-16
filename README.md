@@ -1,3 +1,6 @@
+<img width="2780" height="1536" alt="Screenshot 2026-05-17 at 00-05-01 Blue Prince Helpers Hub" src="https://github.com/user-attachments/assets/2142a1d0-dc80-48db-814b-3d53954b15a3" />
+
+
 # 🏛️ Blue Prince Helpers Hub
 
 **Master the Mansion. Track your Progress. Solve the Mystery.**

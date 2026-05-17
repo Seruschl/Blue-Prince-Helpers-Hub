@@ -6,7 +6,7 @@
 
 **Master the Mansion. Track your Progress. Solve the Mystery.**
 
-`Blue Prince Helpers Hub` is a comprehensive, fan-made standalone helper tool designed specifically for the architectural puzzle game **Blue Prince**. Whether you're navigating the shifting halls of Mt. Hebron for the first time or you're a seasoned explorer looking to optimize your runs, this hub is your ultimate companion.
+`Blue Prince Helpers Hub` is a comprehensive, fan-made standalone helper tool designed specifically for the architectural puzzle game **Blue Prince**. Whether you're navigating the shifting halls of Mt. Holly for the first time or you're a seasoned explorer looking to optimize your runs, this hub is your ultimate companion.
 
 ---
 

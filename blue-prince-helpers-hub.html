@@ -1711,9 +1711,17 @@ function initMap() {
         label.textContent = data.name;
         cell.appendChild(label);
       }
-      if(!fixedCells[i]) {
+      const canRotateLockedFoundation = activeProfile === PROFILE_SOLO && data?.name === FOUNDATION_ROOM_NAME && data?.locked && mapData[i];
+      if(!fixedCells[i] || canRotateLockedFoundation) {
         const rBtn = document.createElement('div'); rBtn.className = 'cell-rotate-btn'; rBtn.textContent = '↻';
-        rBtn.onclick = (e) => { e.stopPropagation(); rotateRoomTile(mapData[i]); saveMap(); initMap(); };
+        rBtn.onclick = (e) => {
+          e.stopPropagation();
+          const rotateData = mapData[i] || data;
+          rotateRoomTile(rotateData);
+          if(!mapData[i]) mapData[i] = rotateData;
+          saveMap();
+          initMap();
+        };
         cell.appendChild(rBtn);
       }
       if(trunkMarkers[i]) {
@@ -4765,5 +4773,4 @@ try {
 </script>
 </body>
 </html>
-
 
